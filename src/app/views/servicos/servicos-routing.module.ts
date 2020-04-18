@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ServicosListagemComponent } from './servicos-listagem.component';
 import { ServicosCadastroComponent } from './servicos-cadastro.component';
+import { ServicosDetalhesComponent } from './servicos-detalhes.component';
 
 const routes: Routes = [
   {
@@ -19,7 +20,14 @@ const routes: Routes = [
         path: 'listagem',
         component: ServicosListagemComponent,
         data: {
-          title: 'Serviços'
+          title: 'Listagem de serviços'
+        }
+      },
+      {
+        path: 'detalhes',
+        component: ServicosDetalhesComponent,
+        data: {
+          title: 'Detalhes do serviço'
         }
       },
       {
