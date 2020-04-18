@@ -57,7 +57,7 @@ import { AgmCoreModule } from '@agm/core';
     TabsModule.forRoot(),
     ChartsModule,
     AgmCoreModule.forRoot({
-      apiKey: 'CHAVES_GOOGLE_MAPS'
+      apiKey: 'AIzaSyBFXFnNwz-GVrcClYcvRNtlU1XmZq5waoY'
     })
   ],
   declarations: [

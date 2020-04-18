@@ -9,6 +9,10 @@ export class DashboardComponent implements OnInit {
 
   radioModel: string = 'Month';
 
+  lat: number = -23.5842261;
+  lng: number = -46.6448757;
+  zoom: number = 15;
+
   // lineChart1
   public lineChart1Data: Array<any> = [
     {

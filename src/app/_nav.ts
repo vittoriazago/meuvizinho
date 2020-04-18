@@ -16,9 +16,14 @@ export const navItems: INavData[] = [
     icon: 'icon-people'
   },
   {
-    name: 'Meus Servicos',
-    url: '/servicos/listagem',
+    name: 'Meus serviços',
+    url: '/servicos/minha-listagem',
     icon: 'icon-pencil'
+  },
+  {
+    name: 'Histórico',
+    url: '/servicos/historico',
+    icon: 'fa fa-history'
   },
   {
     title: true,
