@@ -1,25 +1,35 @@
 <div class="animated fadeIn">
    <div class="card">
      <div class="card-header">
-       <i class="fa fa-align-justify"></i> Serviços aqui perto
+       <i class="fa fa-align-justify"></i> Serviços aqui perto 
+       <div class="card-header-actions"> 
+         <button type="button" class="btn btn-block btn-info" routerLink="/servicos/cadastro/">Oferecer um serviço</button>
+      
+       </div>
+             
      </div>
-     <div class="card-body">
-       <table class="table">
+     <div class="card-body ">
+        <table class="table table-sm table-responsive w-100 d-block d-md-table">
          <thead>
            <tr>
              <th>Descrição</th>
              <th>Distância</th>
              <th>Preço</th>
+             <th>Detalhes</th>
              <th>Usuário</th>
-             <th></th>
              <th></th>
            </tr>
          </thead>
          <tbody>
            <tr>
-             <td>Manicure/Pedicure</td>
+             <td>Manicure e Pedicure</td>
              <td>0,6 km</td>
-             <td>R$ 15,00 a R$40,00</td>
+             <td>R$ 15,00 a R$40,00</td>           
+             <td >
+               <a  routerLink="/servicos/detalhes/">
+                 <i class="fa fa-eye fa-lg mt-4"></i>
+               </a>
+             </td>  
              <td>                    
                <img src="assets/img/avatars/3.jpg" class="img-avatar" >
                <span class="badge badge-success">Carla Gonçalvez</span>
@@ -28,20 +38,20 @@
                <i class="icon-star"></i>
                <i class="icon-star"></i>
                <i class="icon-star"></i>
-             </td>              
-              <td >
-                <a  routerLink="/servicos/detalhes/">
-                  <i class="fa fa-eye fa-lg mt-4"></i>
-                </a>
-              </td>            
+             </td>             
              <td>
                 <button type="button" class="btn btn-block btn-info" routerLink="/servicos/cadastro/">Solicitar</button>
               </td>
            </tr>
            <tr>
-               <td>Encandor/Serviços gerais</td>
+               <td>Encandor e Serviços gerais</td>
                <td>1,2 km</td>
-               <td>R$ 45,00 a R$60,00</td>
+               <td>R$ 45,00 a R$60,00</td>         
+               <td >
+                  <a  routerLink="/servicos/detalhes/">
+                    <i class="fa fa-eye fa-lg mt-4"></i>
+                  </a>
+               </td> 
                <td>                    
                  <img src="assets/img/avatars/7.jpg" class="img-avatar" >
                  <span class="badge badge-success">Flavio Almeida</span>
@@ -50,11 +60,6 @@
                  <i class="icon-star"></i>
                  <i class="icon-star"></i>
                  <i class="icon-star"></i>
-               </td>          
-               <td >
-                  <a  routerLink="/servicos/detalhes/">
-                    <i class="fa fa-eye fa-lg mt-4"></i>
-                  </a>
                </td>        
                <td>
                   <button type="button" class="btn btn-block btn-info" routerLink="/servicos/cadastro/">Solicitar</button>
@@ -63,7 +68,12 @@
            <tr>
                <td>Pães e Bolos</td>
                <td>0,2 km</td>
-               <td>R$ 15,00 a R$40,00</td>
+               <td>R$ 15,00 a R$40,00</td>         
+               <td >
+                  <a  routerLink="/servicos/detalhes/">
+                    <i class="fa fa-eye fa-lg mt-4"></i>
+                  </a>
+               </td> 
                <td>                    
                  <img src="assets/img/avatars/2.jpg" class="img-avatar" >
                  <span class="badge badge-success">Maria Feliciana</span>
@@ -72,12 +82,7 @@
                  <i class="icon-star"></i>
                  <i class="icon-star"></i>
                  <i class="icon-star"></i>
-               </td>           
-               <td >
-                  <a  routerLink="/servicos/detalhes/">
-                    <i class="fa fa-eye fa-lg mt-4"></i>
-                  </a>
-               </td>       
+               </td>          
                <td>
                   <button type="button" class="btn btn-block btn-info" routerLink="/servicos/cadastro/">Solicitar</button>
                 </td>

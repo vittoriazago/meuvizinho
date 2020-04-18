@@ -1,10 +1,11 @@
 <app-header
   [navbarBrandRouterLink]="['/dashboard']"
   [fixed]="true"
-  [navbarBrandFull]="{src: 'assets/img/brand/logo.svg', width: 89, height: 25, alt: 'Meu Vizinho Logo'}"
-  [navbarBrandMinimized]="{src: 'assets/img/brand/sygnet.svg', width: 30, height: 30, alt: 'Meu Vizinho Logo'}"
+  [navbarBrandFull]="{src: 'assets/img/brand/logo.jpg', width: 60, height: 45, alt: 'Meu Vizinho Logo'}"
+  [navbarBrandMinimized]="{src: 'assets/img/brand/logo.jpg', width: 30, height: 30, alt: 'Meu Vizinho Logo'}"
   [sidebarToggler]="'lg'"
-  [asideMenuToggler]="'lg'">
+  [asideMenuToggler]="'lg'"
+  class="bg-fundo-logo">
   <ul class="nav navbar-nav ml-auto">
     <li class="nav-item d-md-down-none">
       <a class="nav-link" href="#"><i class="icon-bell"></i><span class="badge badge-pill badge-danger">5</span></a>
