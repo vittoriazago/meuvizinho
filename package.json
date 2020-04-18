@@ -4,9 +4,9 @@
   "description": "Meu Vizinho",
   "scripts": {
     "ng": "ng",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "heroku-postbuild": "ng build --prod",
     "start": "ng serve",
-    "build": "ng build --prod --aot --buildOptimizer --commonChunk --vendorChunk --optimization --progress",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -65,7 +65,7 @@
     "typescript": "~3.7.5"
   },
   "engines": {
-    "node": "12.16.x",
-    "npm": ">= 6"
+    "node": "12.16.1",
+    "npm": "6.13.4"
   }
 }
