@@ -1,23 +1,8 @@
 {
-  "name": "@coreui/coreui-free-angular-admin-template",
+  "name": "meuvizinho",
   "version": "2.9.2",
   "description": "Meu Vizinho",
-  "author": {
-    "name": "Łukasz Holeczek",
-    "url": "http://holeczek.pl",
-    "github": "https://github.com/mrholek",
-    "twitter": "https://twitter.com/lukaszholeczek"
-  },
-  "contributors": [
-    {
-      "name": "Andrzej Kopański",
-      "url": "https://github.com/xidedix"
-    }
-  ],
-  "homepage": "https://coreui.io/angular",
-  "copyright": "Copyright 2020 creativeLabs Łukasz Holeczek",
-  "license": "MIT",
-  "scripts": {
+   "scripts": {
     "ng": "ng",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
     "start": "ng serve",
@@ -80,7 +65,7 @@
     "typescript": "~3.7.5"
   },
   "engines": {
-    "node": ">= 10.13",
+    "node": "12.16.x",
     "npm": ">= 6"
   }
 }
