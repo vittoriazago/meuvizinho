@@ -2,7 +2,7 @@
   "name": "meuvizinho",
   "version": "2.9.2",
   "description": "Meu Vizinho",
-   "scripts": {
+  "scripts": {
     "ng": "ng",
     "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
     "start": "ng serve",
