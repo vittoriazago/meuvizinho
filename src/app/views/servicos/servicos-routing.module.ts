@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { TypographyComponent } from './typography.component';
 import { ServicosListagemComponent } from './servicos-listagem.component';
+import { ServicosCadastroComponent } from './servicos-cadastro.component';
 
 const routes: Routes = [
   {
@@ -13,20 +13,20 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: 'servicos'
+        redirectTo: 'servicos/listagem'
       },
       {
-        path: 'servicos',
+        path: 'listagem',
         component: ServicosListagemComponent,
         data: {
           title: 'Serviços'
         }
       },
       {
-        path: 'typography',
-        component: TypographyComponent,
+        path: 'cadastro',
+        component: ServicosCadastroComponent,
         data: {
-          title: 'Typography'
+          title: 'Cadastrar serviço'
         }
       }
     ]

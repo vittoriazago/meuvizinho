@@ -12,12 +12,12 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Serviços',
-    url: '/servicos',
+    url: '/servicos/listagem',
     icon: 'icon-people'
   },
   {
-    name: 'Typography',
-    url: '/theme/typography',
+    name: 'Meus Servicos',
+    url: '/servicos/listagem',
     icon: 'icon-pencil'
   },
   {

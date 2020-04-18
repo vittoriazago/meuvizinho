@@ -2,8 +2,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+import { ServicosCadastroComponent } from './servicos-cadastro.component';
 import { ServicosListagemComponent } from './servicos-listagem.component';
-import { TypographyComponent } from './typography.component';
 
 import { ServicosRoutingModule } from './servicos-routing.module';
 
@@ -14,7 +14,7 @@ import { ServicosRoutingModule } from './servicos-routing.module';
   ],
   declarations: [
     ServicosListagemComponent,
-    TypographyComponent
+    ServicosCadastroComponent
   ]
 })
 export class ServicosModule { }
