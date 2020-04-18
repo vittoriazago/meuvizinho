@@ -12,7 +12,7 @@ export const navItems: INavData[] = [
   },
   {
     name: 'Serviços',
-    url: '/theme/colors',
+    url: '/servicos',
     icon: 'icon-people'
   },
   {

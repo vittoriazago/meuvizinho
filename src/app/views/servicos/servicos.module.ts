@@ -2,20 +2,19 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { ColorsComponent } from './colors.component';
+import { ServicosListagemComponent } from './servicos-listagem.component';
 import { TypographyComponent } from './typography.component';
 
-// Theme Routing
-import { ThemeRoutingModule } from './theme-routing.module';
+import { ServicosRoutingModule } from './servicos-routing.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    ThemeRoutingModule
+    ServicosRoutingModule
   ],
   declarations: [
-    ColorsComponent,
+    ServicosListagemComponent,
     TypographyComponent
   ]
 })
-export class ThemeModule { }
+export class ServicosModule { }

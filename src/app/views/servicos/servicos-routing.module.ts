@@ -1,25 +1,25 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ColorsComponent } from './colors.component';
 import { TypographyComponent } from './typography.component';
+import { ServicosListagemComponent } from './servicos-listagem.component';
 
 const routes: Routes = [
   {
     path: '',
     data: {
-      title: 'Theme'
+      title: 'Serviços'
     },
     children: [
       {
         path: '',
-        redirectTo: 'colors'
+        redirectTo: 'servicos'
       },
       {
-        path: 'colors',
-        component: ColorsComponent,
+        path: 'servicos',
+        component: ServicosListagemComponent,
         data: {
-          title: 'Colors'
+          title: 'Serviços'
         }
       },
       {
@@ -37,4 +37,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class ThemeRoutingModule {}
+export class ServicosRoutingModule {}
