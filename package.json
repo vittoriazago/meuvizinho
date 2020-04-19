@@ -4,9 +4,9 @@
   "description": "Meu Vizinho",
   "scripts": {
     "ng": "ng",
-    "heroku-postbuild": "ng build --aot --prod",
+    "heroku-postbuild": "node --max_old_space_size=8000 ./node_modules/@angular/cli/bin/ng build --configuration=prod",
     "start": "ng serve",
-    "build": "ng build --aot --prod",
+    "build": "node --max_old_space_size=8000 ./node_modules/@angular/cli/bin/ng build --configuration=prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
