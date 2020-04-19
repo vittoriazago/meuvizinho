@@ -8,6 +8,8 @@ import { MeusServicosListagemComponent } from './meus-servicos-listagem.componen
 import { ServicosSolicitarComponent } from './servicos-solicitar.component';
 import { ServicosSolicitadoComponent } from './servicos-solicitado.component';
 import { ServicosHistoricoComponent } from './servicos-historico.component';
+import { ComunidadesComponent } from './comunidades.component';
+import { PedirAjudaComponent } from './pedir-ajuda.component';
 
 const routes: Routes = [
   {
@@ -39,6 +41,20 @@ const routes: Routes = [
         component: ServicosDetalhesComponent,
         data: {
           title: 'Detalhes do serviço'
+        }
+      },
+      {
+        path: 'comunidades',
+        component: ComunidadesComponent,
+        data: {
+          title: 'Comunidades'
+        }
+      },
+      {
+        path: 'pedir-ajuda',
+        component: PedirAjudaComponent,
+        data: {
+          title: 'Pedir Ajuda'
         }
       },
       {

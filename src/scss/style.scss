@@ -19,11 +19,27 @@
 .bg-azul-logo {
     background-color: #004aaf;
 }
-agm-map {
+
+.nav-link.active {    
+    background-color: #f7f7f7 !important;
+    color: #424c58 !important;
+}
+.sidebar .nav-link.active .nav-icon {    
+    color: #424c58 !important;
+}
+.sidebar .nav-link {
+    
+}
+#map {
     height: 400px;
     width: 99%;
    }
-
+.btn-fix {
+    padding: 0;
+    border: none;
+    white-space: normal;
+    color:  #f7f7f7;
+}
    
 
 $blue:       #3c9cf0 !default;

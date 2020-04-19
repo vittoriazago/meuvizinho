@@ -226,7 +226,8 @@
   }
 
   .navbar-toggler-icon {
-    background-image: $navbar-light-toggler-icon-bg;
+    font-family: 'FontAwesome' !important;
+    content: "\fa086" !important;
   }
 
   .navbar-text {

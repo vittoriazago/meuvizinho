@@ -2,10 +2,10 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "outDir": "../out-tsc/app",
+    "types": ["googlemaps"],
     "baseUrl": "./",
     "module": "esnext",
     "target": "es5",
-    "types": [],
     "paths": {
       "@angular/*": [
         "../node_modules/@angular/*"

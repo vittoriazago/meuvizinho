@@ -11,6 +11,8 @@ import { MeusServicosListagemComponent } from './meus-servicos-listagem.componen
 import { ServicosSolicitarComponent } from './servicos-solicitar.component';
 import { ServicosSolicitadoComponent } from './servicos-solicitado.component';
 import { ServicosHistoricoComponent } from './servicos-historico.component';
+import { ComunidadesComponent } from './comunidades.component';
+import { PedirAjudaComponent } from './pedir-ajuda.component';
 
 @NgModule({
   imports: [
@@ -24,6 +26,8 @@ import { ServicosHistoricoComponent } from './servicos-historico.component';
     ServicosCadastroComponent,
     ServicosSolicitarComponent,
     ServicosSolicitadoComponent,
+    ComunidadesComponent,
+    PedirAjudaComponent,
     ServicosHistoricoComponent
   ]
 })

@@ -32,7 +32,7 @@
 <div class="app-body">
   <app-sidebar #appSidebar 
   class="bg-fundo-sidebar" [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)">
-    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="appSidebar.minimized"></app-sidebar-nav>
+    <app-sidebar-nav [navItems]="navItems" class="nav-link.active" [perfectScrollbar] [disabled]="appSidebar.minimized"></app-sidebar-nav>
     <app-sidebar-minimizer></app-sidebar-minimizer>
   </app-sidebar>
   <!-- Main content -->
@@ -49,7 +49,7 @@
       <router-outlet></router-outlet>
     </div><!-- /.container-fluid -->
   </main>
-  <app-aside [fixed]="true" [display]="false" [ngClass]="'test'">
+  <app-aside [fixed]="true" [display]="false" [ngClass]="'test'" >
     <tabset>
       <tab>
         <ng-template tabHeading><i class="icon-speech"></i></ng-template>
@@ -65,25 +65,10 @@
               <small class="text-muted">Maria</small>
               <small class="text-muted float-right mt-1">16:54</small>
             </div>
-            <div class="text-truncate font-weight-bold">Vendendo pão</div>
-            <small class="text-muted"> Olá, será que você poderia vir aqui as 10?</small>
+            <div class="text-truncate font-weight-bold">Psicóloga</div>
+            <small class="text-muted">Vamos marcar nossa conversa?</small>
           </div>
           <hr>
-          
-          <div class="message">
-            <div class="py-3 pb-5 mr-3 float-left">
-              <div class="avatar">
-                <img src="assets/img/avatars/7.jpg" class="img-avatar" >
-                <span class="avatar-status badge-success"></span>
-              </div>
-            </div>
-            <div>
-              <small class="text-muted">Fábio</small>
-              <small class="text-muted float-right mt-1">08:20</small>
-            </div>
-            <div class="text-truncate font-weight-bold">Encanador</div>
-            <small class="text-muted"> Você já verificou se houve vazamentos?</small>
-          </div>
         </div>
       </tab>
     </tabset>
