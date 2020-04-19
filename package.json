@@ -4,9 +4,9 @@
   "description": "Meu Vizinho",
   "scripts": {
     "ng": "ng",
-    "heroku-postbuild": "ng build --prod",
+    "heroku-postbuild": "ng build --aot --prod",
     "start": "ng serve",
-    "build": "ng build --prod",
+    "build": "ng build --aot --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
